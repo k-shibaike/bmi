@@ -13,6 +13,7 @@ import model.HealthCheckLogic;
 /**
  * Servlet implementation class HealthCheck
  */
+
 public class HealthCheck extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -31,7 +32,6 @@ public class HealthCheck extends HttpServlet {
 		RequestDispatcher dispatcher =
 				request.getRequestDispatcher("/WEB-INF/jsp/healthCheck.jsp");
 				dispatcher.forward(request, response);
-
 	}
 
 	/**
